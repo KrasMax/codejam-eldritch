@@ -491,13 +491,13 @@ const spreadOutTheDeck = () => {
           }
 
       if (curentCard.color === 'blue'){
-        urlImg = `url(/img/MythicCards/blue/${curentCard.id}.png)`
+        urlImg = `url(img/MythicCards/blue/${curentCard.id}.png)`
 
       }else if (curentCard.color === 'green'){
-        urlImg = `url(/img/MythicCards/green/${curentCard.id}.png)`
+        urlImg = `url(img/MythicCards/green/${curentCard.id}.png)`
 
       }else if (curentCard.color === 'brown'){
-        urlImg = `url(/img/MythicCards/brown/${curentCard.id}.png)`
+        urlImg = `url(img/MythicCards/brown/${curentCard.id}.png)`
 
       }
 
@@ -527,13 +527,13 @@ const spreadOutTheDeck = () => {
 
 
       if (curentCard.color === 'blue'){
-        urlImg = `url(/img/MythicCards/blue/${curentCard.id}.png)`
+        urlImg = `url(img/MythicCards/blue/${curentCard.id}.png)`
         
       }else if (curentCard.color === 'green'){
-        urlImg = `url(/img/MythicCards/green/${curentCard.id}.png)`
+        urlImg = `url(img/MythicCards/green/${curentCard.id}.png)`
         
       }else if (curentCard.color === 'brown'){
-        urlImg = `url(/img/MythicCards/brown/${curentCard.id}.png)`
+        urlImg = `url(img/MythicCards/brown/${curentCard.id}.png)`
         
       }
       playingСardАield.style.backgroundImage = urlImg
@@ -561,13 +561,13 @@ const spreadOutTheDeck = () => {
         }
 
       if (curentCard.color === 'blue'){
-        urlImg = `url(/img/MythicCards/blue/${curentCard.id}.png)`
+        urlImg = `url(img/MythicCards/blue/${curentCard.id}.png)`
         
       }else if (curentCard.color === 'green'){
-        urlImg = `url(/img/MythicCards/green/${curentCard.id}.png)`
+        urlImg = `url(img/MythicCards/green/${curentCard.id}.png)`
         
       }else if (curentCard.color === 'brown'){
-        urlImg = `url(/img/MythicCards/brown/${curentCard.id}.png)`
+        urlImg = `url(img/MythicCards/brown/${curentCard.id}.png)`
         
       }
       playingСardАield.style.backgroundImage = urlImg
