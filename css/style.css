@@ -1,0 +1,195 @@
+
+.no_show{
+    display: none;
+}
+
+body{
+    background-image: url("../img/home.png");
+    background-attachment: fixed;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.box_maps_ancients{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.big_map{
+    height: 427px;
+    width: 322px;
+    margin: 15px;
+}
+
+.big_map:hover{
+    transform: scale(1.15);
+}
+
+.active_big_map{
+    transform: scale(1.05);
+    border: solid red 2px;
+}
+
+.azathoth{
+    background-image: url("../img/Ancients/Azathoth.png");
+    background-size: cover;
+}
+
+.cthulhu{
+    background-image: url("../img/Ancients/Cthulthu.png");
+    background-size: cover;
+}
+
+.log_sothoth {
+    background-image: url("../img/Ancients/IogSothoth.png");
+    background-size: cover;
+}
+
+.shub_niggurath{
+    background-image: url("../img/Ancients/ShubNiggurath.png");
+    background-size: cover;
+}
+
+.box_level_selection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.level{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    margin-top: 15px;
+    border-radius: 15px;
+    height: 30px;
+    width: 130px;
+}
+
+.level:hover{
+    transform: scale(1.15);
+    border: solid red 2px;
+}
+
+.active_level{
+    transform: scale(1.1);
+    border: solid red 2px;
+}
+
+.boxing_deck{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+    
+
+.position_btn_start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+}
+
+.contener_playing_field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_level_counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+
+.number_level{
+    color: rgb(12, 143, 67);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.current_counter_level{
+    display: flex;
+    justify-content: space-between;
+}
+
+.green_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 153, 18);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.brown_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(153, 83, 18);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.blue_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(47, 36, 194);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.shirt{
+    background-image: url("../img/mythicCardBackground.png");
+    background-size: contain;
+    width: 150px;
+    height: 220px;
+    margin-bottom: 15px;
+}
+
+.box_activ_mythic_cards{
+    background-size: contain;
+    width: 150px;
+    height: 220px;
+    margin-top: 15px;
+}
+
+
+.endStage{
+    font-size: 24px;
+    color: red
+}
+
+
+.endStage2{
+    font-size: 24px;
+    color: rgb(224, 19, 19);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
